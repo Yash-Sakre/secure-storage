@@ -1,6 +1,6 @@
 # Secure Storage
 
-`secure-storage` is a lightweight utility for securely storing data in the browser's `localStorage`, `sessionStorage`, and `indexedDB` with encryption. It helps ensure that sensitive information is encrypted before storing and properly handled with expiration times.
+`secure-storage-ts` is a lightweight utility for securely storing data in the browser's `localStorage`, `sessionStorage`, and `indexedDB` with encryption. It helps ensure that sensitive information is encrypted before storing and properly handled with expiration times.
 
 ## Features
 
@@ -11,10 +11,10 @@
 
 ## Installation
 
-You can install `secure-storage` via npm:
+You can install `secure-storage-ts` via npm:
 
 ```bash
-npm install secure-storage
+npm install secure-storage-ts
 ```
 
 # Usage
@@ -22,7 +22,7 @@ npm install secure-storage
 ## Import the Module
 
 ```bash
-import { storeItemLocal, getItemLocal, removeItemLocal, clearAllDataLocal } from 'secure-storage'
+import { storeItemLocal, getItemLocal, removeItemLocal, clearAllDataLocal } from 'secure-storage-ts'
 ```
 ## Local Storage Example
  ### Storing an Item with Expiration
